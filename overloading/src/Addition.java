@@ -5,6 +5,16 @@
  */
 
 public class Addition {
+    public int add(int a, int b){
+        return a + b;
+    }
 
+    public float add(int a, int b, float c){
+        return add(a, b) + c;
+    }
+
+    public int add(String a, String b){
+        return add(Integer.parseInt(a), Integer.parseInt(b));
+    }
 }
 

@@ -1,3 +1,5 @@
+import java.util.List;
+
 public class Main {
 
     /*
@@ -9,7 +11,16 @@ public class Main {
     public static void main(String[] args) {
         Football football = new Football();
 
-        // Call your members here
+        Player player1 = new Player(23, "John Doe");
+        Player player2 = new Player(67, "Jane Doe");
+        Player player3 = new Player(7, "Ama Attah");
+        Player player4 = new Player(15, "Kofi Mensah");
 
+        Team team1 = new Team(List.of(player1, player2));
+        Team team2 = new Team(List.of(player3, player4));
+
+        football.addTeam(team1);
+        football.addTeam(team2);
+        football.printPlayersDetails();
     }
 }
