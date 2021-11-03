@@ -5,6 +5,20 @@
  */
 
 public class Football extends Sports {
+    private int numberOfPlayers =11;
+    private String name ="Football";
+
+
+    @Override
+    String getName() {
+        return this.name;
+    }
+
+    @Override
+    void getNumberOfTeamMembers() {
+        System.out.println( "Each team has " + this.numberOfPlayers + " players in " + this.getName());
+    }
+
 
 }
 
