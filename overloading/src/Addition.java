@@ -6,5 +6,16 @@
 
 public class Addition {
 
+    public void add(int i, int i1) {
+        System.out.println("The sum of " + i + " and "+ i1 + " is " + (i+i1));
+    }
+
+    public void add(int i, int i1, int i2) {
+        System.out.println("The sum of "+ i + "," + i1 +" and "+ i2 + " is " + (i + i1 + i2));
+    }
+
+    public void add(int i, int i1, float i2) {
+        System.out.println("The sum of "+ i + "," + i1 +" and "+ i2 + " is " + (i + i1 + i2));
+    }
 }
 
