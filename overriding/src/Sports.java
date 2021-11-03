@@ -10,6 +10,6 @@ public class Sports {
     }
 
     void getNumberOfTeamMembers(){
-        System.out.println( "Each team has n players in " + getName());
+        System.out.println( "Each team has n players in " );
     }
 }
