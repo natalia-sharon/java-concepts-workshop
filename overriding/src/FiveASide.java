@@ -5,7 +5,7 @@
  */
 
 public class FiveASide extends Football {
-    private int number = 5;
+    private final int number = 5;
     String getName(){
         return "Five a side";
     }

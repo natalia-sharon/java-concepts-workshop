@@ -5,7 +5,7 @@
  */
 
 public class Football extends Sports {
-    private int number = 11;
+    private final int number = 11;
     String getName(){
         return "Football";
     }
