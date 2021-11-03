@@ -7,9 +7,13 @@ public class Main {
      */
 
     public static void main(String[] args) {
+        Sports sports = new Sports();
+        sports.getNumberOfTeamMembers();
+
         Football football = new Football();
 
         // Call your members here
-
+        football.setNumberOfPlayers(11); // setting number of players
+        football.getNumberOfTeamMembers();
     }
 }
