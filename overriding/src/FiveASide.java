@@ -4,10 +4,10 @@
  * Use function overriding to print out the name and number of players from the Main class.
  */
 
-public class Football extends Sports {
-    private int number = 11;
+public class FiveASide extends Football {
+    private int number = 5;
     String getName(){
-        return "Football";
+        return "Five a side";
     }
 
     void getNumberOfTeamMembers(){

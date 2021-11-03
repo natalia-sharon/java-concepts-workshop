@@ -5,6 +5,16 @@
  */
 
 public class Addition {
+    float sum = 0;
+    public int add(int i, int j) {
+        return i + j;
+    }
+    public float add(int i, int j, float k) {
+        return i + j + k;
+    }
+
+    public String add(String a, String b) {
+        return a + " " +  b;
+    }
 
 }
-
