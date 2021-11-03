@@ -6,7 +6,7 @@
 
 public class Football extends Sports {
 
-    Integer noOfPlayers;
+    private Integer noOfPlayers;
 
     public Football(Integer noOfPlayers) {
         this.noOfPlayers = noOfPlayers;
@@ -17,10 +17,13 @@ public class Football extends Sports {
         return "Football";
     }
 
+    public Integer getNoOfPlayers() {
+        return noOfPlayers;
+    }
 
     @Override
     void getNumberOfTeamMembers(){
-        System.out.println( "Each team has " + noOfPlayers + " players in " + getName());
+        System.out.println( "Each team has " + getNoOfPlayers() + " players in " + getName());
     }
 
 
