@@ -5,6 +5,20 @@
  */
 
 public class Addition {
+    public int add(int n, int m) {
+        return n + m;
+    }
 
+    public int add(int n, int m, int l) {
+        return n + m + l;
+    }
+
+    public float add(float n, float m, float l) {
+        return n + m + l;
+    }
+
+    public int add(String n, String m) {
+        return int(n) + int(m);
+    }
 }
 
