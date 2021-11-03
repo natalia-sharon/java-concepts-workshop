@@ -6,5 +6,21 @@
 
 public class Addition {
 
+    public int add(int a, int b) {
+        return a + b;
+    }
+
+    public int add(int a, int b, int c) {
+        return a + b + c;
+    }
+
+    public float add(int a, int b, float c) {
+        return a + b + c;
+    }
+
+    public int add(String a, String b) {
+        return Integer.valueOf(a) + Integer.valueOf(b);
+    }
+
 }
 
