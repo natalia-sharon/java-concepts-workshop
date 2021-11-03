@@ -6,5 +6,14 @@
 
 public class Football extends Sports {
 
+    public String getName(){
+        return "Football";
+    }
+
+
+    public void getNumberOfTeamMembers(){
+        System.out.println("Each team has 11 players " + getName());
+    }
+
 }
 
