@@ -5,8 +5,8 @@
  */
 
 public class Football extends Sports {
-    String teamName;
-    int numberOfPlayers;
+    private String teamName;
+    private int numberOfPlayers;
 
     public Football(String teamName, int numberOfPlayers) {
         this.teamName = teamName;
