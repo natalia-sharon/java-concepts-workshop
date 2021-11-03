@@ -6,14 +6,16 @@
 
 public class Football extends Sports {
     private final int numberOfPlayers;
+    private String sportName;
 
-    public Football(int numberOfPlayers) {
+    public Football(int numberOfPlayers, String sportName) {
         this.numberOfPlayers = numberOfPlayers;
+        this.sportName = sportName;
     }
 
     @Override
     String getName() {
-        return "Football";
+        return this.sportName;
     }
 
     @Override
