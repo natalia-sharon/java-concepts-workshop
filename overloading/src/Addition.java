@@ -4,7 +4,16 @@
  * Use function overloading to implement TWO methods which prints out the sum of the inputs.
  */
 
-public class Addition {
+import java.util.Arrays;
+import java.util.List;
 
+public class Addition {
+    public int add(int... numbers) {
+        return Arrays.stream(numbers).sum();
+    }
+
+    public double add(double... numbers) {
+        return Arrays.stream(numbers).sum();
+    }
 }
 
