@@ -8,8 +8,14 @@ public class Main {
 
     public static void main(String[] args) {
         Football football = new Football();
+        football.getName();
+        football.getNumberOfTeamMembers();
 
-        // Call your members here
+        Football five = new FiveASide();
+        five.getName();
+        five.getNumberOfTeamMembers();
+
+
 
     }
 }
