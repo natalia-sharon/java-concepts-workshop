@@ -17,8 +17,8 @@ public class Addition {
         return n + m + l;
     }
 
-    public int add(String n, String m) {
-        return int(n) + int(m);
+    public float add(String n, String m) {
+        return Float.parseFloat(n) + Float.parseFloat(m);
     }
 }
 
