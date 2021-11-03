@@ -6,5 +6,12 @@
 
 public class Addition {
 
+    public void add(Integer a, Integer b) {
+        System.out.println(a + b);
+    }
+
+    public void add(Integer a, Integer b, float c) {
+        System.out.println(a + b + c);
+    }
 }
 
