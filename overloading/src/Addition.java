@@ -8,12 +8,12 @@ import java.util.Arrays;
 import java.util.List;
 
 public class Addition {
-    public int add(int... numbers) {
-        return Arrays.stream(numbers).sum();
+    public void add(int... numbers) {
+        System.out.println(Arrays.stream(numbers).sum());
     }
 
-    public double add(double... numbers) {
-        return Arrays.stream(numbers).sum();
+    public void add(double... numbers) {
+        System.out.println(Arrays.stream(numbers).sum());
     }
 }
 
