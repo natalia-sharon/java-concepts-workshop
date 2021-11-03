@@ -7,9 +7,10 @@ public class Main {
      */
 
     public static void main(String[] args) {
-        Football football = new Football();
+        Football football = new Football( 10);
 
         // Call your members here
+        football.getNumberOfTeamMembers();
 
     }
 }
