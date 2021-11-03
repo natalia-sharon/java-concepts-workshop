@@ -5,6 +5,22 @@
  */
 
 public class Addition {
+        public int add(int a, int b, int c) {
+            int sum = a + b +c;
+            return sum;
+        }
 
-}
+        public int add(int a, int b) {
+            int sum = a + b ;
+            return sum;
+        }
+
+        public float add(int a, int b, float c) {
+            float sum = a + b ;
+            return sum;
+        }
+    }
+
+
+
 
