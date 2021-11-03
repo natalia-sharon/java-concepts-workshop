@@ -16,7 +16,7 @@ public class Addition {
     }
 
     public void add(int a, int b, float c) {
-        System.out.println(a + b + (int)c);
+        System.out.println((float)a + (float)b + c);
     }
 
     public void add(String a, String b) {
