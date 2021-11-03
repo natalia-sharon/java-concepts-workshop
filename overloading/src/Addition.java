@@ -7,14 +7,12 @@
 public class Addition {
 
     public int add(int a,int b){
+        System.out.println(a+b);
         return a+b;
     }
 
-    public int add(int a,int b,int c){
-        return a+b+c;
-    }
-
     public float add(int a,int b, float c){
+        System.out.println(a+b+c);
         return a+b+c;
     }
 
