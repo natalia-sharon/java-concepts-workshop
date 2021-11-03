@@ -10,6 +10,8 @@ public class Main {
         Football football = new Football();
 
         // Call your members here
+        System.out.println(football.getName());
+        football.getNumberOfTeamMembers();
 
     }
 }
