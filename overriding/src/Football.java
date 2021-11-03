@@ -10,6 +10,10 @@ public class Football extends Sports {
         super(11);
     }
 
+    public Football(int numbers) {
+        super(numbers);
+    }
+
     @Override
     String getName() {
         return "Football Sport";
