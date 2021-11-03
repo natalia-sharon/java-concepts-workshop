@@ -6,5 +6,19 @@
 
 public class Addition {
 
+    public void add(int a, int b){
+        System.out.println(a+b);
+    }
+    public void add(int a, int b, float c ){
+        System.out.println(a+b+c);
+    }
+
+    public void stretch( String a, String b){
+        int num1 =Integer.parseInt(a);
+        int num2 =Integer.parseInt(b);
+
+        System.out.println(num1+num2);
+    }
+
 }
 
