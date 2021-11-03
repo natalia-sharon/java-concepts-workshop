@@ -12,5 +12,9 @@ public class Main {
         // Call your members here
         System.out.println(football.getName());
         football.getNumberOfTeamMembers();
+
+        Football fiveASide = new FiveASide();
+        System.out.println(fiveASide.getName());
+        fiveASide.getNumberOfTeamMembers();
     }
 }
