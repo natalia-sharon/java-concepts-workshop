@@ -6,5 +6,18 @@
 
 public class Football extends Sports {
 
+    public Football() {
+        super(11);
+    }
+
+    @Override
+    String getName() {
+        return "Football Sport";
+    }
+
+    @Override
+    void getNumberOfTeamMembers() {
+        System.out.println( "Each team has " + getNumberOfPlayers() + " players in " + getName());
+    }
 }
 
