@@ -5,6 +5,21 @@
  */
 public class Sports {
 
+    private int numberOfPlayers;
+
+
+    public Sports(int numberOfPlayers) {
+        this.numberOfPlayers = numberOfPlayers;
+    }
+
+    public int getNumberOfPlayers() {
+        return numberOfPlayers;
+    }
+
+    public void setNumberOfPlayers(int numberOfPlayers) {
+        this.numberOfPlayers = numberOfPlayers;
+    }
+
     String getName(){
         return "Generic Sports";
     }
